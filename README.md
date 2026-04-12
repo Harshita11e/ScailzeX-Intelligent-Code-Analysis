@@ -11,7 +11,7 @@ AI-powered platform to analyze code, detect issues, and provide intelligent fix 
 - ⚡ 40–60% faster analysis using optimized AI pipeline  
 - 📊 Code quality scoring with detailed reports
 
-- ## 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 **Frontend**
 - React.js  
