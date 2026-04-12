@@ -9,4 +9,30 @@ AI-powered platform to analyze code, detect issues, and provide intelligent fix 
 - 🔍 AI-based code analysis and issue detection  
 - 🐞 Automatic bug classification with fix suggestions  
 - ⚡ 40–60% faster analysis using optimized AI pipeline  
-- 📊 Code quality scoring with detailed reports  
+- 📊 Code quality scoring with detailed reports
+
+- ## 🛠️ Tech Stack
+
+**Frontend**
+- React.js  
+- Tailwind CSS  
+
+**Backend**
+- Python, FastAPI  
+
+**AI Integration**
+- Groq API  
+- UniXcoder  
+
+**Deployment**
+- Vercel (Frontend)  
+- Render (Backend)  
+
+---
+
+## 🚀 Core Highlights
+
+- Built an AI-powered code analysis platform to automatically detect, classify, and generate actionable fix suggestions  
+- Optimized performance by integrating UniXcoder with Groq API, achieving **40–60% faster processing**  
+- Engineered a comprehensive code quality scoring system with detailed insights and structured reports  
+
