@@ -1,10 +1,10 @@
 # ScailzeX-Intelligent-Code-Analysis 
 AI-powered platform to analyze code, detect issues, and provide intelligent fix suggestions with performance insights.
 
-##  🌐Live Demo
+##  🌐 Live Demo
 🔗 https://scailze-x-intelligent-code-analysis.vercel.app/
 
-## Deployment Note
+## ☁️ Important Deployment Note
 
 This application is hosted on Render using free-tier cloud services. Due to automatic server sleep during inactivity, the initial request may experience a short delay or timeout while the backend service starts up. Once the server is active, subsequent requests are processed normally with improved response time.
 
