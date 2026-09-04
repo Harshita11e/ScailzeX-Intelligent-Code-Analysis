@@ -1,6 +1,6 @@
 """
 ScailzeX AI Review Layer
-Uses Groq LLaMA 3.3 70B for intelligent code analysis.
+Uses Groq gpt-oss-120b for intelligent code analysis.
 Optimized prompt with language-specific rules and strict before/after fixes.
 """
 
@@ -143,7 +143,7 @@ def ai_review(code: str, language: str, ml_issues: List[Dict]) -> Dict[str, Any]
     prompt = build_prompt(code, language, ml_issues)
 
     response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": prompt}
